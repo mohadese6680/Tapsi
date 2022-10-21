@@ -1,0 +1,927 @@
+@media (max-width:576px) {
+    .header {
+        height: 35rem;
+
+        .main--header {
+            .inner--background {
+                justify-content: center;
+            }
+
+            .btns {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .download--btn {
+                margin-bottom: 1rem;
+            }
+
+            .driver--btn {
+                margin-bottom: 1rem;
+            }
+
+            #car--icon {
+                margin-right: -2rem;
+            }
+
+            #car--text {
+                margin-right: 2.5rem;
+            }
+        }
+    }
+
+    .section--services {
+        height: 80rem;
+
+        h2 {
+            font-size: 22px;
+        }
+
+        .car--services {
+            right: -2rem;
+        }
+
+        .about--services {
+            right: -3%;
+
+            .discription--services {
+                // flex-direction: column;
+                width: 90%;
+                // h3 {
+                //     font-size: 16px;
+                //     font-weight: 700;
+                //     // margin-right: -3rem;
+                //     margin-bottom: .8rem;
+                // }
+
+                // p {
+                //     font-size: 14px;
+                //     // margin-right: -3rem;
+                // }
+            }
+        }
+    }
+
+    .hr {
+        top: 40%;
+        // bottom: 15%;
+    }
+
+    .kasbokar {
+        .kasbokar--content {
+            flex-direction: column;
+
+            .discription--kasbokar {
+                // order: 1;
+                width: 95%;
+
+                // h2 {
+                //     font-size: 22px;
+                //     font-weight: 700;
+                //     margin-bottom: 1.4rem;
+                // }
+
+                p {
+                    font-size: 14px;
+                    text-align: justify;
+                }
+
+                .more--inform {
+                    .more--info {
+                        display: block;
+                        font-size: 14px;
+                    }
+
+                }
+
+                .sign--in {
+                    display: block;
+                    width: 14rem;
+                    font-size: 14px;
+                    padding: 15px 10px;
+                    height: 3rem;
+                }
+            }
+
+            .kasbokar--img {
+                width: 80%;
+                margin-right: 4rem;
+                margin-bottom: 3.5rem;
+            }
+        }
+    }
+
+    .aerial--content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .drivers {
+        .driver--discription {
+            display: flex;
+            flex-direction: column;
+
+            .img--driver {
+                width: 90%;
+                align-self: center;
+            }
+        }
+    }
+
+    .weblag {
+        h2 {
+            font-size: 22px;
+            margin-bottom: 4rem;
+        }
+
+        .box--weblag {
+            width: 100%;
+
+            .weblag--content {
+                overflow: hidden !important;
+
+                p {
+                    height: 3rem;
+                }
+            }
+        }
+    }
+
+    .cities--tapsi {
+        display: none;
+    }
+
+    .footer {
+        .copy-right {
+            display: none;
+        }
+
+        .content--foot {
+            display: flex;
+            flex-direction: column;
+        }
+
+        //    .mojavez {
+        //     display: flex;
+        //     justify-content: center;
+
+        //     img {
+        //         width: 7rem;
+        //         height: 10rem;
+        //         padding: 1rem;
+        //         border-radius: 4rem;
+        //         margin: .2rem;
+        //     }
+        p {
+            font-size: 14px;
+            margin-top: 1rem;
+        }
+    
+        .title--foot {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 2.6rem 0rem 1.4rem;
+        }
+    
+        .sub--title {
+            a {
+                font-size: 14px;
+                margin-bottom: .7rem;
+    
+                &:hover {
+                    color: #ff5722;
+                }
+            }
+        }
+        .brand {
+            margin: 3rem 0 1rem;
+    
+            .sublogo {
+                font-size: 12px;
+            }
+        }
+    
+        .social--network {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+    
+            h3 {
+                display: none;
+            }
+    
+            .icon--foot {
+                justify-content: space-around;
+    
+                i {
+                    font-size: 22px;
+                    color: rgb(190, 190, 190);
+                }
+            }
+        }
+    }
+
+    
+
+    
+
+}
+
+
+
+@media (max-width:768px) {
+    .header--box {
+        height: 24.4rem;
+        width: 17rem;
+        top: 2rem;
+
+        .title {
+            font-size: 25px;
+            margin: -.6rem -1rem;
+        }
+
+        .sub--title {
+            font-size: 16px;
+            margin: 0 -.9rem;
+        }
+
+        .download--btn {
+            width: 13.4rem;
+            height: 3rem;
+            font-size: 14px;
+        }
+
+        .driver--btn {
+            font-size: 14px;
+            height: 3rem;
+            width: 13.4rem;
+        }
+    }
+
+    .section--services {
+        height: 36rem;
+
+        // height: 20rem;
+        h2 {
+            font-size: 22px;
+            top: 3rem;
+            right: -2rem;
+        }
+
+        .car--services {
+            overflow-x: scroll;
+            top: 6rem;
+            right: -2rem;
+
+            .nav--items {
+                .car--servic {
+                    min-width: 7rem;
+
+                    .n--item {
+                        .name--car {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .about--services {
+            top: 9rem;
+            right: -12%;
+        }
+
+        .discription--services {
+            // flex-direction: column;
+            right: 3rem;
+            width: 90%;
+
+            h3 {
+                font-size: 16px;
+                font-weight: 700;
+                // margin-right: -3rem;
+                margin-bottom: .8rem;
+            }
+
+            p {
+                font-size: 14px;
+                // margin-right: -3rem;
+            }
+        }
+    }
+
+    .kasbokar {
+        height: 38rem;
+
+        .kasbokar--content {
+            .discription--kasbokar {
+                width: 90%;
+                order: 1;
+
+                h2 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-bottom: 1.4rem;
+                }
+
+                p {
+                    font-size: 14px;
+                    text-align: justify;
+                }
+
+                .sign--in {
+                    width: 15rem;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .credit--code {
+        height: 45rem;
+
+        .code--content {
+            flex-direction: column;
+
+            .credit--code--img {
+                width: 87%;
+                margin: 22% 7% 5%;
+            }
+
+            .discription--code {
+                h2 {
+                    font-size: 22px;
+                    font-weight: 700;
+                    margin-bottom: 2rem;
+                }
+
+                .code--btn {
+                    width: 14rem;
+                    font-size: 14px;
+                    padding: 15px 10px;
+                    height: 3rem;
+                }
+            }
+        }
+    }
+
+    .aerial--item {
+        .title {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .sub--title {
+            font-size: 14px;
+        }
+    }
+
+    .drivers {
+        height: 95rem;
+
+        .main--title {
+            font-size: 22px;
+            margin-top: 4rem;
+            line-height: 2.4rem;
+            margin-bottom: 1.4rem;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        .small--title {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+        }
+
+        ul li {
+            font-size: 14px;
+            margin-right: -2.5rem;
+            padding-bottom: 10px;
+        }
+
+        .btn--div {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .driver--btn {
+                min-width: 14rem;
+                font-size: 14px;
+                margin-bottom: 1rem;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .weblag {
+        h2 {
+            font-size: 22px;
+            margin-bottom: 4rem;
+        }
+
+        .boxes {
+            flex-direction: column;
+
+            .box--weblag {
+                margin-bottom: .5rem;
+                border: none;
+
+                .weblag--content {
+                    padding: .5rem .3rem 1rem;
+
+                    h3 {
+                        font-size: 16px;
+                        margin: 1.5rem .2rem;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer {
+        .mojavez {
+            display: flex;
+            justify-content: space-around;
+            .mojavez--img {
+                padding: 2rem 0;
+                margin: .2rem;
+                width: 6rem;
+                height: 9rem;
+                border-radius: 1rem;
+            }
+        }
+
+        // .mojavez {
+        //     display: flex;
+        //     justify-content: center;
+
+        //     img {
+        //         width: 7rem;
+        //         height: 10rem;
+        //         padding: 1rem;
+        //         border-radius: 1rem;
+        //         margin: .2rem;
+        //     }
+        // }
+
+        p {
+            font-size: 14px;
+            margin-top: 1rem;
+        }
+
+        .title--foot {
+            font-size: 20px;
+            font-weight: 700;
+            margin: 2.6rem 0rem 1.4rem;
+        }
+
+        .sub--title {
+            a {
+                font-size: 14px;
+                margin-bottom: .7rem;
+
+                &:hover {
+                    color: #ff5722;
+                }
+            }
+        }
+
+        .brand {
+            margin: 3rem 0 1rem;
+
+            .sublogo {
+                font-size: 12px;
+            }
+        }
+
+        .social--network {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+
+            h3 {
+                display: none;
+            }
+
+            .icon--foot {
+                justify-content: space-around;
+
+                i {
+                    font-size: 22px;
+                    color: rgb(190, 190, 190);
+                }
+            }
+        }
+
+    }
+}
+
+@media (min-width:768px) {
+    .header {
+        height: 52rem;
+    }
+
+    .header--box {
+        height: 23.3rem;
+        width: 36rem;
+        top: 6rem;
+        right: 11%;
+
+        .title {
+            font-size: 50px;
+            margin: -.6rem -1rem;
+
+        }
+
+        .sub--title {
+            font-size: 24px;
+            margin: 0 -.9rem;
+        }
+
+        .download--btn {
+            width: 15rem;
+            height: 4rem;
+            font-size: 1rem;
+            margin: .5rem;
+            padding: 1rem;
+        }
+
+        .driver--btn {
+            font-size: 1rem;
+            height: 4rem;
+            margin: .5rem;
+            padding: 1rem;
+            width: 15rem;
+        }
+    }
+
+    .section--services {
+        height: 40rem;
+
+        h2 {
+            font-size: 35px;
+            top: -12%;
+            right: 4%;
+        }
+
+        .car--services {
+            right: 3%;
+
+            // top: 9rem;
+            .nav--items {
+                width: 95%;
+
+                .car--servic {
+                    min-width: 5rem;
+                    width: 100%;
+
+                    .name--car {
+                        font-size: 18px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .about--services {
+        right: 0%;
+
+        .discription--services {
+            // margin-right: -3%;
+            margin-top: 9%;
+
+            h3 {
+                font-size: 28px;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .service--image {
+            margin-left: 6%;
+            margin-top: 9%;
+        }
+    }
+
+    .kasbokar {
+        height: 40rem;
+
+        .kasbokar--content {
+            .discription--kasbokar {
+
+                // width: 90%;
+                // order: 1;
+                h2 {
+                    font-size: 35px;
+                    font-weight: 700;
+                    margin-bottom: 1.4rem;
+                    line-height: 3.4rem;
+                }
+
+                p {
+                    font-size: 18px;
+                    text-align: justify;
+                }
+
+                .more--info {
+                    font-size: 18px;
+                }
+
+                .sign--in {
+                    width: 17rem;
+                    font-size: 18px;
+                    padding: 1.2rem;
+                }
+            }
+
+            .kasbokar--img {
+                width: 28rem;
+                height: 18rem;
+            }
+        }
+    }
+
+    .credit--code {
+        height: 28rem;
+
+        h2 {
+            font-size: 35px;
+            font-weight: 700;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .code--btn {
+            width: 15rem;
+            height: 3.5rem;
+            font-size: 16px;
+            padding: 1.2rem;
+        }
+
+    }
+
+    .aerial--content {
+        margin-top: 2rem;
+        .aerial--item {
+            .title {
+                font-size: 20px;
+            }
+
+            .sub--title {
+                font-size: 16px;
+            }
+        }
+
+        .divar {
+            background-color: #fff;
+            height: 50px;
+            width: 2px;
+        }
+    }
+
+    .drivers {
+        margin-top: 2rem;
+
+        .main--title {
+            font-size: 35px;
+            // margin-top: 4rem;
+            line-height: 3.3rem;
+            margin-bottom: 1.4rem;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 32px;
+            // margin-bottom: 3rem;
+        }
+
+        .small--title {
+            font-size: 22px;
+            font-weight: 600;
+            line-height: 2.5rem;
+            margin-bottom: 2rem;
+            margin-top: 4rem;
+        }
+
+        ul li {
+            font-size: 18px;
+            margin-right: -2.5rem;
+            padding-bottom: 10px;
+            line-height: 2rem;
+        }
+
+        .btn--div {
+            justify-content: center;
+            align-items: center;
+
+            .driver--btn {
+                min-width: 14rem;
+                font-size: 16px;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .weblag {
+        h2 {
+            font-size: 35px;
+            margin-bottom: 4rem;
+            margin-top: 5rem;
+        }
+
+        .boxes {
+
+            .box--weblag {
+                margin-bottom: .5rem;
+                border: none;
+
+                .weblag--content {
+                    overflow: hidden !important;
+                    padding: 1rem;
+
+                    h3 {
+                        font-size: 22px;
+                        margin: 1.5rem .2rem;
+                        color: rgb(155, 155, 155) !important;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        color: rgb(51, 51, 51) !important;
+                        padding-bottom: 3rem;
+                        height: 4rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .cities--tapsi {
+        .name--city {
+            h3:first-child {
+                font-size: 18px;
+            }
+        }
+
+        .name--city {
+            width: 16%;
+
+            h3:last-child {
+                font-size: 18px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+
+    .footer {
+
+        .mojavez {
+            .mojavez--img {
+                border-radius: 1rem;
+            }
+        }
+
+        p {
+            // font-size: 14px;
+            // margin-top: 1rem;
+        }
+
+        .title--foot {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .sub--title {
+            a {
+                font-size: 14px;
+                margin-bottom: .7rem;
+            }
+        }
+
+        .brand {
+            // margin: 3rem 0 1rem;
+
+            .sublogo,
+            p {
+                font-size: 12px;
+            }
+
+        }
+
+        .social--network {
+            // margin-top: 2rem;
+            // margin-bottom: 2rem;
+
+            h3 {
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+            .icon--foot {
+                margin-bottom: 3rem;
+
+                i {
+                    font-size: 22px;
+                    color: rgb(190, 190, 190);
+                }
+            }
+        }
+
+    }
+}
+
+@media (max-width:993px) {
+    .credit--code--img {
+        margin-top: 3rem;
+        width: 50%;
+        height: 60%;
+    }
+
+    .box--weblag {
+        min-height: 24rem;
+        min-width: 14rem;
+    }
+
+    .mojavez {
+        .mojavez--img {
+            padding: 2rem 0;
+            margin: .2rem;
+            width: 6rem;
+            height: 9rem;
+        }
+    }
+}
+
+@media (min-width:993px) {
+    .about--services {
+        .discription--services {
+            margin-right: -3%;
+        }
+
+        .service--image {
+            margin-left: 3%;
+            // margin-top: 9%;
+        }
+    }
+
+    .credit--code--img {
+        margin-top: 3rem;
+        width: 40%;
+        height: 70%;
+    }
+
+    .box--weblag {
+        min-height: 24rem;
+        min-width: 21rem;
+    }
+
+    .mojavez {
+        .mojavez--img {
+            margin: .2rem;
+            width: 6rem;
+            height: 7rem;
+
+        }
+    }
+
+}
+
+@media (max-width:1200px) {
+    .kasbokar--img {
+        width: 32rem;
+        height: 20rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .credit--code--img {
+        margin-top: 3rem;
+        width: 40%;
+        height: 85%;
+    }
+
+    .box--weblag {
+        min-height: 24rem;
+        min-width: 24rem;
+    }
+}

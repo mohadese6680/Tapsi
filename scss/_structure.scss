@@ -1,0 +1,74 @@
+// **************************font**************************
+@font-face {
+    font-family: 'DanaPro';
+    src: url(../font/Dana-Medium.woff);
+}
+
+// *******************************color-variables***********************
+$orange:#ff5722;
+$big-title:#00000000;
+$small-title:#141414;
+$text:#333333;
+$blue:#0065DC;
+$nav-color:#545454;
+
+// *************************all**********************************
+* {
+    font-family: 'DanaPro';
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+// **********************************mixin*************************
+
+@mixin btn {
+    align-items: center;
+    background-color: #ff5722;
+    border-radius: 12px;
+    color: #ffffff;
+    height: 100%;
+    justify-content: center;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+@mixin title($marginbottom) {
+    color: $big-title;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: $marginbottom;
+}
+
+.btn--tapsi {
+    // align-items: center;
+    background-color: #ff5722;
+    border-radius: .7rem;
+    color: #ffffff !important;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: .8rem 2.6rem;
+    transition: all .2s;
+
+    &:hover {
+        opacity: .9;
+    }
+}
+.btn--blue{
+    align-items: center;
+    background-color: #0065dc;
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 5px 15px;
+}

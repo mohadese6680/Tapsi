@@ -1,0 +1,369 @@
+// **********************************navbar*******************************
+.main--nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 4rem;
+
+    .logo--tapsi {
+        right: 8%;
+    }
+
+    .navbar--list {
+        left: 8%;
+
+        a {
+            color: #545454;
+            transition: all .2s;
+            font-size: 1rem;
+
+            &:hover {
+                color: #ff5722;
+            }
+        }
+
+        #btn--tapsiii {
+            transition: all .2s;
+
+            &:hover {
+                padding: .78rem 2.5rem;
+            }
+        }
+
+    }
+
+    .hamburger--menu {
+        width: 1.8rem;
+        height: 2rem;
+        left: 8%;
+
+        .menu {
+            cursor: pointer;
+            transition: transform .3s;
+        }
+
+        .bar {
+            width: 100%;
+            height: .2rem;
+            background-color: #000000;
+            margin-bottom: .3rem;
+            transition: all .5s .5s;
+            transform-origin: right;
+        }
+    }
+
+    .checkbox:checked~.hamburger--menu .bar1 {
+        transform: rotateZ(-34deg);
+    }
+
+    .checkbox:checked~.hamburger--menu .bar2 {
+        opacity: 0;
+    }
+
+    .checkbox:checked~.hamburger--menu .bar3 {
+        transform: rotateZ(34deg);
+    }
+}
+
+// ***************************************header********************************
+.header {
+    // height: 52rem;
+
+    .main--header {
+        background-image: url(../img/header-background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 32rem;
+
+        .inner--background {
+            .header--box {
+                background-image: linear-gradient(51deg, rgba(23, 26, 60, .7) 5%, rgba(23, 26, 60, .3) 95%);
+                border-radius: 1.4rem;
+                padding: 2rem;
+
+                .title {
+                    color: #fff;
+                }
+
+                .sub--title {
+                    color: #fff;
+
+                }
+
+                .download--btn {
+                    background: #fff;
+                    border-radius: .8rem;
+                    color: #000;
+
+                }
+
+                .driver--btn {
+                    border-radius: .8rem;
+                    background-color: rgba(23, 26, 60, .5) !important;
+                    border: 2px solid #fff;
+                    color: #fff !important;
+                }
+            }
+
+            .phone {
+                left: 10.6rem;
+                top: 8rem;
+
+                img {
+                    width: 30rem;
+                    height: 46rem;
+                }
+            }
+        }
+    }
+}
+
+//************************************* section--services***************************************
+
+.section--services {
+
+    .car--services {
+        height: 7rem;
+        // max-width: 81rem;
+        // background-color: red;
+        width: 90%;
+        // bottom: 8rem;
+
+        .nav--items {
+            flex-wrap: nowrap;
+
+            .car--servic {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+
+                // min-width: 7rem;
+                .n--item {
+                    .name--car {
+                        color: #5e5e5e;
+                        // font-size: 16px;
+                        margin-top: 13px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .about--services {
+        margin-top: 7rem;
+
+        img {
+            width: 40%;
+            height: 40%;
+        }
+
+        .discription--services {
+            // width: 45%;
+
+            h3 {
+                color: #141414;
+                // font-size: 28px;
+                // font-weight: 500;
+                // margin-bottom: 20px;
+            }
+
+            p {
+                color: #333;
+                // font-size: 18px;
+                line-height: 32px;
+                margin-bottom: 30px;
+                text-align: justify;
+            }
+        }
+
+
+    }
+}
+
+.hr {
+    // margin-bottom: 11rem;
+    width: 85%;
+    margin-right: 8%;
+}
+
+// ***********************************kasbokar***********************************
+.kasbokar {
+
+    .discription--kasbokar {
+        p {
+            color: #333;
+        }
+
+        .sign--in {
+            height: 4rem;
+        }
+    }
+
+    .kasbokar--img {
+        object-fit: cover;
+        // width: 55%;
+        margin-right: 10%;
+        margin-top: 8%;
+        margin-bottom: 3rem;
+        // height: 45%;
+    }
+
+    .more--inform a,
+    i {
+        color: #ff5722;
+    }
+}
+
+// **************************************credit--code***********************
+.credit--code {
+    .discription--code {
+        p {
+            color: #333;
+        }
+
+    }
+
+    .credit--code--img {
+        object-fit: cover;
+    }
+}
+
+// ******************************************aerial--image*************************
+.aerial--image {
+    background-image: url(../img/parallax.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 180px;
+    padding: 20px 0;
+
+    .aerial--content {
+        .aerial--item {
+            text-align: center;
+            justify-content: center;
+
+            .title {
+                color: #ffff;
+                font-weight: 700;
+            }
+
+            .sub--title {
+                color: #ffff;
+            }
+        }
+    }
+
+}
+
+// ****************************************drivers*************************************
+.drivers {
+    margin-top: 20%;
+
+    .img--driver {
+        border-radius: 22px;
+        object-fit: cover;
+    }
+
+    .main--title {
+        font-weight: 700;
+    }
+
+    p,
+    li,
+    .small--title {
+        color: #4d4d4d;
+    }
+
+}
+
+// ****************************************weblag*******************************
+.weblag {
+    h2 {
+        font-weight: 700;
+    }
+
+    .boxes {
+        .box--weblag {
+            margin-left: 1rem;
+
+            &:hover {
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+            }
+
+            .weblag--content {
+                h3 {
+                    color: #9b9b9b;
+                }
+
+                p {
+                    color: #333;
+                }
+            }
+        }
+    }
+}
+
+// **********************************************cities******************************
+.cities--tapsi {
+    background: url(../img/map-back.svg) no-repeat rgb(248, 248, 249);
+    padding: 40px 10%;
+
+    h2 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+}
+
+// *******************************************footer**********************************
+
+.footer {
+    background-color: rgb(0, 0, 0);
+
+    a,
+    p,
+    h6,
+    h3 {
+        color: #fff;
+    }
+
+    .sub--title {
+        display: flex;
+        flex-direction: column;
+
+        .sub--title {
+            a {
+
+                &:hover {
+                    color: #ff5722;
+                }
+            }
+            
+        }
+    }
+
+    .mojavez {
+        .mojavez--img {
+            background-color: #f8f8f8;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+    p {
+        color: rgb(172, 172, 172);
+    }
+
+    .social--network {
+        .icon--foot {
+            a {
+                i{
+                    &:hover {
+                        color: #ff5722;
+                    }
+                }
+            }
+        }
+    }
+}

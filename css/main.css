@@ -1,0 +1,1075 @@
+.main--nav {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 4rem;
+}
+
+.main--nav .logo--tapsi {
+  right: 8%;
+}
+
+.main--nav .navbar--list {
+  left: 8%;
+}
+
+.main--nav .navbar--list a {
+  color: #545454;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  font-size: 1rem;
+}
+
+.main--nav .navbar--list a:hover {
+  color: #ff5722;
+}
+
+.main--nav .navbar--list #btn--tapsiii {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.main--nav .navbar--list #btn--tapsiii:hover {
+  padding: .78rem 2.5rem;
+}
+
+.main--nav .hamburger--menu {
+  width: 1.8rem;
+  height: 2rem;
+  left: 8%;
+}
+
+.main--nav .hamburger--menu .menu {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.main--nav .hamburger--menu .bar {
+  width: 100%;
+  height: .2rem;
+  background-color: #000000;
+  margin-bottom: .3rem;
+  -webkit-transition: all .5s .5s;
+  transition: all .5s .5s;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+.main--nav .checkbox:checked ~ .hamburger--menu .bar1 {
+  -webkit-transform: rotateZ(-34deg);
+          transform: rotateZ(-34deg);
+}
+
+.main--nav .checkbox:checked ~ .hamburger--menu .bar2 {
+  opacity: 0;
+}
+
+.main--nav .checkbox:checked ~ .hamburger--menu .bar3 {
+  -webkit-transform: rotateZ(34deg);
+          transform: rotateZ(34deg);
+}
+
+.header .main--header {
+  background-image: url(../img/header-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 32rem;
+}
+
+.header .main--header .inner--background .header--box {
+  background-image: linear-gradient(51deg, rgba(23, 26, 60, 0.7) 5%, rgba(23, 26, 60, 0.3) 95%);
+  border-radius: 1.4rem;
+  padding: 2rem;
+}
+
+.header .main--header .inner--background .header--box .title {
+  color: #fff;
+}
+
+.header .main--header .inner--background .header--box .sub--title {
+  color: #fff;
+}
+
+.header .main--header .inner--background .header--box .download--btn {
+  background: #fff;
+  border-radius: .8rem;
+  color: #000;
+}
+
+.header .main--header .inner--background .header--box .driver--btn {
+  border-radius: .8rem;
+  background-color: rgba(23, 26, 60, 0.5) !important;
+  border: 2px solid #fff;
+  color: #fff !important;
+}
+
+.header .main--header .inner--background .phone {
+  left: 10.6rem;
+  top: 8rem;
+}
+
+.header .main--header .inner--background .phone img {
+  width: 30rem;
+  height: 46rem;
+}
+
+.section--services .car--services {
+  height: 7rem;
+  width: 90%;
+}
+
+.section--services .car--services .nav--items {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.section--services .car--services .nav--items .car--servic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.section--services .car--services .nav--items .car--servic .n--item .name--car {
+  color: #5e5e5e;
+  margin-top: 13px;
+  text-align: center;
+}
+
+.section--services .about--services {
+  margin-top: 7rem;
+}
+
+.section--services .about--services img {
+  width: 40%;
+  height: 40%;
+}
+
+.section--services .about--services .discription--services h3 {
+  color: #141414;
+}
+
+.section--services .about--services .discription--services p {
+  color: #333;
+  line-height: 32px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.hr {
+  width: 85%;
+  margin-right: 8%;
+}
+
+.kasbokar .discription--kasbokar p {
+  color: #333;
+}
+
+.kasbokar .discription--kasbokar .sign--in {
+  height: 4rem;
+}
+
+.kasbokar .kasbokar--img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10%;
+  margin-top: 8%;
+  margin-bottom: 3rem;
+}
+
+.kasbokar .more--inform a,
+.kasbokar i {
+  color: #ff5722;
+}
+
+.credit--code .discription--code p {
+  color: #333;
+}
+
+.credit--code .credit--code--img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.aerial--image {
+  background-image: url(../img/parallax.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 180px;
+  padding: 20px 0;
+}
+
+.aerial--image .aerial--content .aerial--item {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aerial--image .aerial--content .aerial--item .title {
+  color: #ffff;
+  font-weight: 700;
+}
+
+.aerial--image .aerial--content .aerial--item .sub--title {
+  color: #ffff;
+}
+
+.drivers {
+  margin-top: 20%;
+}
+
+.drivers .img--driver {
+  border-radius: 22px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.drivers .main--title {
+  font-weight: 700;
+}
+
+.drivers p,
+.drivers li,
+.drivers .small--title {
+  color: #4d4d4d;
+}
+
+.weblag h2 {
+  font-weight: 700;
+}
+
+.weblag .boxes .box--weblag {
+  margin-left: 1rem;
+}
+
+.weblag .boxes .box--weblag:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+}
+
+.weblag .boxes .box--weblag .weblag--content h3 {
+  color: #9b9b9b;
+}
+
+.weblag .boxes .box--weblag .weblag--content p {
+  color: #333;
+}
+
+.cities--tapsi {
+  background: url(../img/map-back.svg) no-repeat #f8f8f9;
+  padding: 40px 10%;
+}
+
+.cities--tapsi h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer a,
+.footer p,
+.footer h6,
+.footer h3 {
+  color: #fff;
+}
+
+.footer .sub--title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .sub--title .sub--title a:hover {
+  color: #ff5722;
+}
+
+.footer .mojavez .mojavez--img {
+  background-color: #f8f8f8;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer p {
+  color: #acacac;
+}
+
+.footer .social--network .icon--foot a i:hover {
+  color: #ff5722;
+}
+
+@font-face {
+  font-family: 'DanaPro';
+  src: url(../font/Dana-Medium.woff);
+}
+
+* {
+  font-family: 'DanaPro';
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn--tapsi {
+  background-color: #ff5722;
+  border-radius: .7rem;
+  color: #ffffff !important;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: .8rem 2.6rem;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.btn--tapsi:hover {
+  opacity: .9;
+}
+
+.btn--blue {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0065dc;
+  border-radius: 12px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 15px;
+}
+
+@media (max-width: 576px) {
+  .header {
+    height: 35rem;
+  }
+  .header .main--header .inner--background {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header .main--header .btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .header .main--header .download--btn {
+    margin-bottom: 1rem;
+  }
+  .header .main--header .driver--btn {
+    margin-bottom: 1rem;
+  }
+  .header .main--header #car--icon {
+    margin-right: -2rem;
+  }
+  .header .main--header #car--text {
+    margin-right: 2.5rem;
+  }
+  .section--services {
+    height: 80rem;
+  }
+  .section--services h2 {
+    font-size: 22px;
+  }
+  .section--services .car--services {
+    right: -2rem;
+  }
+  .section--services .about--services {
+    right: -3%;
+  }
+  .section--services .about--services .discription--services {
+    width: 90%;
+  }
+  .hr {
+    top: 40%;
+  }
+  .kasbokar .kasbokar--content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar {
+    width: 95%;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar .more--inform .more--info {
+    display: block;
+    font-size: 14px;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar .sign--in {
+    display: block;
+    width: 14rem;
+    font-size: 14px;
+    padding: 15px 10px;
+    height: 3rem;
+  }
+  .kasbokar .kasbokar--content .kasbokar--img {
+    width: 80%;
+    margin-right: 4rem;
+    margin-bottom: 3.5rem;
+  }
+  .aerial--content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .drivers .driver--discription {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .drivers .driver--discription .img--driver {
+    width: 90%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .weblag h2 {
+    font-size: 22px;
+    margin-bottom: 4rem;
+  }
+  .weblag .box--weblag {
+    width: 100%;
+  }
+  .weblag .box--weblag .weblag--content {
+    overflow: hidden !important;
+  }
+  .weblag .box--weblag .weblag--content p {
+    height: 3rem;
+  }
+  .cities--tapsi {
+    display: none;
+  }
+  .footer .copy-right {
+    display: none;
+  }
+  .footer .content--foot {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer p {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .footer .title--foot {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2.6rem 0rem 1.4rem;
+  }
+  .footer .sub--title a {
+    font-size: 14px;
+    margin-bottom: .7rem;
+  }
+  .footer .sub--title a:hover {
+    color: #ff5722;
+  }
+  .footer .brand {
+    margin: 3rem 0 1rem;
+  }
+  .footer .brand .sublogo {
+    font-size: 12px;
+  }
+  .footer .social--network {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer .social--network h3 {
+    display: none;
+  }
+  .footer .social--network .icon--foot {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .social--network .icon--foot i {
+    font-size: 22px;
+    color: #bebebe;
+  }
+}
+
+@media (max-width: 768px) {
+  .header--box {
+    height: 24.4rem;
+    width: 17rem;
+    top: 2rem;
+  }
+  .header--box .title {
+    font-size: 25px;
+    margin: -.6rem -1rem;
+  }
+  .header--box .sub--title {
+    font-size: 16px;
+    margin: 0 -.9rem;
+  }
+  .header--box .download--btn {
+    width: 13.4rem;
+    height: 3rem;
+    font-size: 14px;
+  }
+  .header--box .driver--btn {
+    font-size: 14px;
+    height: 3rem;
+    width: 13.4rem;
+  }
+  .section--services {
+    height: 36rem;
+  }
+  .section--services h2 {
+    font-size: 22px;
+    top: 3rem;
+    right: -2rem;
+  }
+  .section--services .car--services {
+    overflow-x: scroll;
+    top: 6rem;
+    right: -2rem;
+  }
+  .section--services .car--services .nav--items .car--servic {
+    min-width: 7rem;
+  }
+  .section--services .car--services .nav--items .car--servic .n--item .name--car {
+    font-size: 14px;
+  }
+  .section--services .about--services {
+    top: 9rem;
+    right: -12%;
+  }
+  .section--services .discription--services {
+    right: 3rem;
+    width: 90%;
+  }
+  .section--services .discription--services h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: .8rem;
+  }
+  .section--services .discription--services p {
+    font-size: 14px;
+  }
+  .kasbokar {
+    height: 38rem;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar {
+    width: 90%;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar p {
+    font-size: 14px;
+    text-align: justify;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar .sign--in {
+    width: 15rem;
+    font-size: 14px;
+  }
+  .credit--code {
+    height: 45rem;
+  }
+  .credit--code .code--content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .credit--code .code--content .credit--code--img {
+    width: 87%;
+    margin: 22% 7% 5%;
+  }
+  .credit--code .code--content .discription--code h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .credit--code .code--content .discription--code .code--btn {
+    width: 14rem;
+    font-size: 14px;
+    padding: 15px 10px;
+    height: 3rem;
+  }
+  .aerial--item .title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .aerial--item .sub--title {
+    font-size: 14px;
+  }
+  .drivers {
+    height: 95rem;
+  }
+  .drivers .main--title {
+    font-size: 22px;
+    margin-top: 4rem;
+    line-height: 2.4rem;
+    margin-bottom: 1.4rem;
+  }
+  .drivers p {
+    font-size: 14px;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+  }
+  .drivers .small--title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .drivers ul li {
+    font-size: 14px;
+    margin-right: -2.5rem;
+    padding-bottom: 10px;
+  }
+  .drivers .btn--div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .drivers .btn--div .driver--btn {
+    min-width: 14rem;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .weblag h2 {
+    font-size: 22px;
+    margin-bottom: 4rem;
+  }
+  .weblag .boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .weblag .boxes .box--weblag {
+    margin-bottom: .5rem;
+    border: none;
+  }
+  .weblag .boxes .box--weblag .weblag--content {
+    padding: .5rem .3rem 1rem;
+  }
+  .weblag .boxes .box--weblag .weblag--content h3 {
+    font-size: 16px;
+    margin: 1.5rem .2rem;
+  }
+  .weblag .boxes .box--weblag .weblag--content p {
+    font-size: 14px;
+  }
+  .footer .mojavez {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .mojavez .mojavez--img {
+    padding: 2rem 0;
+    margin: .2rem;
+    width: 6rem;
+    height: 9rem;
+    border-radius: 1rem;
+  }
+  .footer p {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .footer .title--foot {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 2.6rem 0rem 1.4rem;
+  }
+  .footer .sub--title a {
+    font-size: 14px;
+    margin-bottom: .7rem;
+  }
+  .footer .sub--title a:hover {
+    color: #ff5722;
+  }
+  .footer .brand {
+    margin: 3rem 0 1rem;
+  }
+  .footer .brand .sublogo {
+    font-size: 12px;
+  }
+  .footer .social--network {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .footer .social--network h3 {
+    display: none;
+  }
+  .footer .social--network .icon--foot {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .footer .social--network .icon--foot i {
+    font-size: 22px;
+    color: #bebebe;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 52rem;
+  }
+  .header--box {
+    height: 23.3rem;
+    width: 36rem;
+    top: 6rem;
+    right: 11%;
+  }
+  .header--box .title {
+    font-size: 50px;
+    margin: -.6rem -1rem;
+  }
+  .header--box .sub--title {
+    font-size: 24px;
+    margin: 0 -.9rem;
+  }
+  .header--box .download--btn {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1rem;
+    margin: .5rem;
+    padding: 1rem;
+  }
+  .header--box .driver--btn {
+    font-size: 1rem;
+    height: 4rem;
+    margin: .5rem;
+    padding: 1rem;
+    width: 15rem;
+  }
+  .section--services {
+    height: 40rem;
+  }
+  .section--services h2 {
+    font-size: 35px;
+    top: -12%;
+    right: 4%;
+  }
+  .section--services .car--services {
+    right: 3%;
+  }
+  .section--services .car--services .nav--items {
+    width: 95%;
+  }
+  .section--services .car--services .nav--items .car--servic {
+    min-width: 5rem;
+    width: 100%;
+  }
+  .section--services .car--services .nav--items .car--servic .name--car {
+    font-size: 18px;
+  }
+  .about--services {
+    right: 0%;
+  }
+  .about--services .discription--services {
+    margin-top: 9%;
+  }
+  .about--services .discription--services h3 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .about--services .discription--services p {
+    font-size: 18px;
+  }
+  .about--services .service--image {
+    margin-left: 6%;
+    margin-top: 9%;
+  }
+  .kasbokar {
+    height: 40rem;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+    line-height: 3.4rem;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar .more--info {
+    font-size: 18px;
+  }
+  .kasbokar .kasbokar--content .discription--kasbokar .sign--in {
+    width: 17rem;
+    font-size: 18px;
+    padding: 1.2rem;
+  }
+  .kasbokar .kasbokar--content .kasbokar--img {
+    width: 28rem;
+    height: 18rem;
+  }
+  .credit--code {
+    height: 28rem;
+  }
+  .credit--code h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+  .credit--code p {
+    font-size: 18px;
+  }
+  .credit--code .code--btn {
+    width: 15rem;
+    height: 3.5rem;
+    font-size: 16px;
+    padding: 1.2rem;
+  }
+  .aerial--content {
+    margin-top: 2rem;
+  }
+  .aerial--content .aerial--item .title {
+    font-size: 20px;
+  }
+  .aerial--content .aerial--item .sub--title {
+    font-size: 16px;
+  }
+  .aerial--content .divar {
+    background-color: #fff;
+    height: 50px;
+    width: 2px;
+  }
+  .drivers {
+    margin-top: 2rem;
+  }
+  .drivers .main--title {
+    font-size: 35px;
+    line-height: 3.3rem;
+    margin-bottom: 1.4rem;
+  }
+  .drivers p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .drivers .small--title {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+  }
+  .drivers ul li {
+    font-size: 18px;
+    margin-right: -2.5rem;
+    padding-bottom: 10px;
+    line-height: 2rem;
+  }
+  .drivers .btn--div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .drivers .btn--div .driver--btn {
+    min-width: 14rem;
+    font-size: 16px;
+    padding: 1rem;
+  }
+  .weblag h2 {
+    font-size: 35px;
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+  }
+  .weblag .boxes .box--weblag {
+    margin-bottom: .5rem;
+    border: none;
+  }
+  .weblag .boxes .box--weblag .weblag--content {
+    overflow: hidden !important;
+    padding: 1rem;
+  }
+  .weblag .boxes .box--weblag .weblag--content h3 {
+    font-size: 22px;
+    margin: 1.5rem .2rem;
+    color: #9b9b9b !important;
+  }
+  .weblag .boxes .box--weblag .weblag--content p {
+    font-size: 18px;
+    color: #333333 !important;
+    padding-bottom: 3rem;
+    height: 4rem;
+  }
+  .cities--tapsi .name--city h3:first-child {
+    font-size: 18px;
+  }
+  .cities--tapsi .name--city {
+    width: 16%;
+  }
+  .cities--tapsi .name--city h3:last-child {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  .footer .mojavez .mojavez--img {
+    border-radius: 1rem;
+  }
+  .footer .title--foot {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .footer .sub--title a {
+    font-size: 14px;
+    margin-bottom: .7rem;
+  }
+  .footer .brand .sublogo,
+  .footer .brand p {
+    font-size: 12px;
+  }
+  .footer .social--network h3 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .footer .social--network .icon--foot {
+    margin-bottom: 3rem;
+  }
+  .footer .social--network .icon--foot i {
+    font-size: 22px;
+    color: #bebebe;
+  }
+}
+
+@media (max-width: 993px) {
+  .credit--code--img {
+    margin-top: 3rem;
+    width: 50%;
+    height: 60%;
+  }
+  .box--weblag {
+    min-height: 24rem;
+    min-width: 14rem;
+  }
+  .mojavez .mojavez--img {
+    padding: 2rem 0;
+    margin: .2rem;
+    width: 6rem;
+    height: 9rem;
+  }
+}
+
+@media (min-width: 993px) {
+  .about--services .discription--services {
+    margin-right: -3%;
+  }
+  .about--services .service--image {
+    margin-left: 3%;
+  }
+  .credit--code--img {
+    margin-top: 3rem;
+    width: 40%;
+    height: 70%;
+  }
+  .box--weblag {
+    min-height: 24rem;
+    min-width: 21rem;
+  }
+  .mojavez .mojavez--img {
+    margin: .2rem;
+    width: 6rem;
+    height: 7rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .kasbokar--img {
+    width: 32rem;
+    height: 20rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .credit--code--img {
+    margin-top: 3rem;
+    width: 40%;
+    height: 85%;
+  }
+  .box--weblag {
+    min-height: 24rem;
+    min-width: 24rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
